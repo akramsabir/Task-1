@@ -1,0 +1,85 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+     
+}
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+h1{
+    color: #6527BE;
+    text-align: center;
+}
+h2{
+    color: #FFEA20;
+}
+.paragraph{
+    color: dimgrey;
+   text-align: justify;
+}
+.head{
+    padding-bottom: 10px;
+}
+.punchline{
+    margin-left: 28%;
+    margin-right: 28%;
+}
+header {
+    background-color:#00D7FF;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 0 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #00D7FF;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
